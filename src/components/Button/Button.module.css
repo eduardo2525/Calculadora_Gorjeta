@@ -1,0 +1,26 @@
+button {
+    width: 150px;
+    height: 40px;
+    font-size: 22px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.greenButton {
+    background: green;
+    color: white;
+}
+.greenButton:hover {
+    background: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.whiteButton {
+    background: white;
+}
+.whiteButton:hover {
+    background: rgb(3, 185, 3);
+    color: white;
+}
